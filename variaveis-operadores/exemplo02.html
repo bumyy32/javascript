@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemplo com js</title>
+</head>
+<body>
+    <input type="button" value="Clique aqui"
+    id="clique" name="clique"
+    onclick="testeclick()"> 
+
+    <p>O botão <strong>ainda</strong> não foi clicado!</p>
+ 
+    <!-- js  -->
+    <script>
+    function testeclick(){
+        document.querySelector('p').innerHTML = 'infelizmente o <strong style="color: red" >MENGAO</strong> nao ganhou af ' 
+    }
+    </script>
+
+</body>
+</html>

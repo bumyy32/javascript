@@ -45,3 +45,22 @@ resultado = numero01 * numero02;
 
 alert('Resultado: ' + resultado);
 
+// pegar data 
+Date();
+
+// teste com numero
+var teste = 10;
+
+teste.toExponential(); // mostra as anotações em exponencial
+teste.toFixed(2); // bota 0 apos a virgula
+teste.toPrecision(1); // arredonda o valor
+teste.toString(); // Converte para string, usado para ocasiões específicas
+
+// Teste string 
+
+var teste = 'javascript';
+
+teste.CharAt(4); // pega o caracter que está no lugar indicado, começando a contagem do 0, ou seja, nesse caso seria a letra S
+teste.concat(' é legal') // essa função concatena, junta, duas strings
+teste.split(a); // nesse caso, ele irá retirar toda letra A da palavra javascript, ou qualquer outra que seja selecionada
+teste.split(' ') // separa cada uma das palavras caso a variavel tiver mais de uma

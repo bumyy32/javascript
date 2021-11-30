@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste imagem
+    </title>
+</head>
+<body>
+
+    <figure>
+        <img src="img1.jpg" id="img" alt="guilmon parado" onclick="trocarImage()">
+    </figure>
+    
+
+    <!-- js  -->
+    <script>
+        function trocarImage(){
+            if(document.getElementById('img').alt == 'guilmon parado'){
+            document.getElementById('img').src = 'gif.gif';
+            document.getElementById('img').alt = 'guilmon respirando';
+            }
+            else {
+                document.getElementById('img').src = 'img1.jpg';
+                document.getElementById('img').alt = 'guilmon parado'
+            }
+        }
+    </script>
+    
+</body>
+</html>
