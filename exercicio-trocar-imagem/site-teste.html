@@ -10,7 +10,7 @@
 <body>
 
     <figure>
-        <img src="img1.jpg" id="img" alt="guilmon parado" onclick="trocarImage()">
+        <img src="img1.jpg" id="img" alt="guilmon parado">
     </figure>
     
 
@@ -25,6 +25,20 @@
                 document.getElementById('img').src = 'img1.jpg';
                 document.getElementById('img').alt = 'guilmon parado'
             }
+        }
+
+        window.onload = function(){
+            var imagem = document.querySelector('#presente');
+            imagem.addEventListener("click", function(){
+                if(imagem.alt == 'guilmon parado'){
+            imagem.src = 'gif.gif';
+            imagem.alt = 'guilmon respirando';
+            }
+            else {
+                imagem.src = 'img1.jpg';
+                imagem.alt = 'guilmon parado'
+            }
+            });
         }
     </script>
     
