@@ -7,7 +7,9 @@ botao.addEventListener("click",function(){
 
     var media = (nota1 + nota2) / 2;
 
-    document.querySelector('#result-nome').innerHTML = nome;
-    document.querySelector('#resultado').innerHTML = media;
-    document.querySelector('#resultadomedia').innerHTML = "Nome do aluno: " + nome + " Média geral: " + media;
+
+    document.querySelector('#resultadomedia').innerHTML =`<div class="alert alert-dark" role="alert">
+    <p>Nome do aluno: ${nome} e sua média geral foi de: ${media}</p>
+    </div>`;
+
 });
