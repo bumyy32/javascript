@@ -16,4 +16,11 @@
 
 // alert(resultado);
 
-Arrow function 
+// Arrow function 
+// let calculo = (numero1, numero2, operador) => {
+//      return eval(`${numero1} ${operador} ${numero2}`);
+// }
+
+// let resultado = calculo(7,10 ,'-');
+
+// alert(resultado);
