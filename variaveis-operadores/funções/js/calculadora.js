@@ -39,6 +39,11 @@ var botao = document.querySelector('#btn-calcular');
     if (numero > 5) {
         alert('Número é maior que 5');
     }
+    else if (numero == 5) {
+        alert('Número é igual a 5')
+    }
         else{
             alert('Número não é maior que 5');
         }
+
+        
