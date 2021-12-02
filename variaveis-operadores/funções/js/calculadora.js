@@ -1,18 +1,19 @@
-function calc(numero1,numero2, operador){
-     return eval(`${numero1} ${operador} ${numero2}`);
-}
+//Função
+// function calc(numero1,numero2, operador){
+//      return eval(`${numero1} ${operador} ${numero2}`);
+// }
 
+// // teste
+// // let resultado = calc(10, 10, "+")
 
+// // alert(resultado)
 
-// var botao = document.getElementById('btn-calcular')
+// função anonima
+// let resultado = (function(numero1, numero2, operador){
+//     return eval(`${numero1} ${operador} ${numero2}`);
 
-// botao.addEventListener("click", function(){
-// var numero1 = parseInt(document.getElementById("numero1").value);
-// var numero2 = parseInt(document.getElementById("numero2").value);
-// var operador = document.getElementById("operador").value;
+// })(7, 10, '+');
 
-// var resultado = numero1 + operador + numero2;
+// alert(resultado);
 
-// document.getElementById("resultado").innerHTML = 'Resultado:' + resultado
-
-// });
+Arrow function 
