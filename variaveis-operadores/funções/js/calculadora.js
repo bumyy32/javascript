@@ -34,3 +34,11 @@ var botao = document.querySelector('#btn-calcular');
         let resultado = calculo(numero1, numero2, operador);
         alert(resultado);
     });
+
+    // Estrutura condicional 
+    if (numero > 5) {
+        alert('Número é maior que 5');
+    }
+        else{
+            alert('Número não é maior que 5');
+        }
