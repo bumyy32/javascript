@@ -24,3 +24,8 @@
 // let resultado = calculo(7,10 ,'-');
 
 // alert(resultado);
+
+var botao = document.querySelector("btn-calcular")
+    botao.addEventListener("click", ()=>{
+        
+    });
