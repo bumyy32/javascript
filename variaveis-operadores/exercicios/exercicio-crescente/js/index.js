@@ -7,26 +7,26 @@ botao.addEventListener('click', function (numero1, numero2, numero3) {
 
     if (numero1 > numero2 && numero1 > numero3) {
         if (numero2 > numero3) {
-            alert(numero3 + ' ' + numero2 + ' ' + numero1);
+            alert('Em ordem crescente: ' + numero3 + ' - ' + numero2 + ' - ' + numero1);
         }
         else {
-            alert(numero2 + ' ' + numero3 + ' ' +numero1);
+            alert('Em ordem crescente: ' + numero2 + ' - ' + numero3 + ' - ' +numero1);
         }
     }
         else if (numero2 > numero1 && numero2 > numero3) {
             if (numero1 > numero3) {
-                alert(numero3 + ' ' + numero1 + ' ' + numero2);
+                alert('Em ordem crescente: ' + numero3 + ' - ' + numero1 + ' - ' + numero2);
             }
             else{
-                alert(numero1 + ' ' + numero3 + ' ' + numero2);
+                alert('Em ordem crescente: ' + numero1 + ' - ' + numero3 + ' - ' + numero2);
             }
         }
         else if (numero3 > numero1 && numero3 > numero2) {
             if (numero1 > numero2) {
-                alert(numero2 + ' ' + numero1 + ' ' + numero3);
+                alert('Em ordem crescente: ' + numero2 + ' - ' + numero1 + ' - ' + numero3);
             }
             else{
-                alert(numero1 + ' ' + numero2 + ' ' + numero3);
+                alert('Em ordem crescente: ' + numero1 + ' - ' + numero2 + ' - ' + numero3);
             }
         }
 })
