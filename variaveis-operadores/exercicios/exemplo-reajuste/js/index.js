@@ -13,4 +13,6 @@ botao.addEventListener('click', function (salario) {
     }
     else{
         salarioreajustado = salario * 1.10;
-}})
+}
+    alert('Salario reajustado: ' + salarioreajustado);
+})
