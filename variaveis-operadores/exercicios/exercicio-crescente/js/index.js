@@ -22,7 +22,7 @@ botao.addEventListener('click', function (numero1, numero2, numero3) {
             }
         }
         else if (numero3 > numero1 && numero3 > numero2) {
-            if (numero1>numero2) {
+            if (numero1 > numero2) {
                 alert(numero2 + ' ' + numero1 + ' ' + numero3);
             }
             else{
