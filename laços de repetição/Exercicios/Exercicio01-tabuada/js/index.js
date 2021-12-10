@@ -7,6 +7,8 @@ function() {
         tabuada = numero * i;
         var result = document.createElement('p');
         result.innerHTML = numero + ' * ' + i + ' = ' + tabuada;
+        // result.style = 'margin 0'; - css dentro do js para tirar margin
+        // result.classList.add('m-0'); - usando bs dentro do js para tirar margin
         document.querySelector('#tabuada').appendChild(result);
     }
 })
