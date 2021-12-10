@@ -6,7 +6,7 @@ function() {
     for (var i = 1; i <= 10; i++){
         tabuada = numero * i;
         var result = document.createElement('p');
-        result.innerHTML = tabuada;
+        result.innerHTML = numero + ' * ' + i + ' = ' + tabuada;
         document.querySelector('#tabuada').appendChild(result);
     }
 })
